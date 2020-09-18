@@ -1,0 +1,52 @@
+/* overrides default leaflet style */
+.leaflet-div-icon {
+  border: none;
+  background: none;
+}
+
+.leaflet-popup-pane {
+  margin-left: 25px; /* hack... */
+}
+
+.leaflet-popup {
+  bottom: 0 !important; /* hack... */
+}
+
+.leaflet-popup-content-wrapper {
+
+}
+
+.leaflet-popup-content {
+  min-width: 240px;
+}
+
+.map__cluster__child-count {
+  position: absolute;
+  z-index: 5;
+}
+
+.map-marker-popup {
+}
+
+.map-marker-popup__created_at {
+
+}
+
+.map-marker-popup__thumbnail {
+
+}
+
+.map-marker-popup__title {
+}
+
+.map-marker-popup__description {
+
+}
+
+.map-marker-popup__tags {
+
+}
+
+.map-marker-popup__tags__tag {
+  padding-right: 5px;
+}

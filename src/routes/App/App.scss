@@ -1,0 +1,46 @@
+.app {
+
+}
+
+a {
+  cursor: pointer;
+}
+
+/*
+.leaflet-container a {
+  color: #014991;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.leaflet-control-permalink {
+  display: none;
+}
+*/
+
+.geosuggest__suggests--hidden {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.geosuggest-item {
+  font-size: 18px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.geosuggest-item:hover,
+.geosuggest-item:focus {
+  background: #f5f5f5;
+}
+
+.geosuggest-item--active {
+  background: #267dc0;
+  color: #fff;
+}
+
+.geosuggest-item--active:hover,
+.geosuggest-item--active:focus {
+  background: #ccc;
+}
+

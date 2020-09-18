@@ -1,0 +1,15 @@
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown__handler {
+  border: 0;
+}
+
+.dropdown__options {
+  display: none;
+}
+
+.dropdown__options--visible {
+  display: block;
+}

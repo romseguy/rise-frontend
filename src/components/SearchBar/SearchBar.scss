@@ -1,0 +1,18 @@
+.search-bar {
+
+}
+
+.search-bar > form {
+  display: block !important; // todo: fix integration
+}
+
+.search-bar__input {
+
+}
+
+.search-bar .geosuggest__suggests {
+  position: absolute;
+  width: calc(100% - 40px);
+  margin-top: 40px;
+  background: white;
+}

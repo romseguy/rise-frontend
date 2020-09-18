@@ -1,0 +1,5 @@
+static/dist
+webpack-assets.json
+.idea
+node_modules/
+npm-debug.log

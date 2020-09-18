@@ -1,0 +1,29 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-runtime",
+    "transform-catch-regenerator-runtime",
+    "contracts"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        ["contracts", {
+          "strip": true
+        }]
+      ]
+    },
+    "client.development": {
+      "plugins": [
+        ["react-transform", {
+          "transforms": [{
+            "transform": "react-transform-hmr",
+            "imports": ["react"],
+            "locals": ["module"]
+          }]
+        }]
+      ]
+    }
+  }
+}

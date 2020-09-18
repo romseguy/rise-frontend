@@ -1,0 +1,22 @@
+.main {
+}
+
+.main__children {
+  position: absolute;
+  z-index: 50;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.main__children > * {
+  pointer-events: all;
+}
+
+.main__newsfeed-button {
+
+}
+
+.main__signin-button {
+
+}

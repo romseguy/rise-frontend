@@ -1,0 +1,13 @@
+.loading-wrapper {
+  pointer-events: none;
+}
+
+.loading-wrapper > * {
+  pointer-events: all;
+}
+
+.loading-wrapper--absolute {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
